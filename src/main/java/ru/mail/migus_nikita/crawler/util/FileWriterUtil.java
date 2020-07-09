@@ -12,5 +12,4 @@ public class FileWriterUtil {
             Files.createDirectory(folder.toPath());
         }
     }
-
 }

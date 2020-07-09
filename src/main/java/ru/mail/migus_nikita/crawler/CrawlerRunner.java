@@ -1,15 +1,15 @@
 package ru.mail.migus_nikita.crawler;
 
 import ru.mail.migus_nikita.crawler.service.Crawler;
-import ru.mail.migus_nikita.crawler.util.ConsoleWriterUtil;
-import ru.mail.migus_nikita.crawler.util.CsvWriterUtil;
-import ru.mail.migus_nikita.crawler.util.FileWriterUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
+import ru.mail.migus_nikita.crawler.util.ConsoleWriterUtil;
+import ru.mail.migus_nikita.crawler.util.CsvWriterUtil;
+import ru.mail.migus_nikita.crawler.util.FileWriterUtil;
 
 import java.io.File;
 import java.io.IOException;
